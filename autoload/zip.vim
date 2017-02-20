@@ -26,7 +26,7 @@ endif
 let g:loaded_zip     = "v1"
 let s:zipfile_escape = ' ?&;\|'
 
-python import sys, os, vim, re, tempfile
+python import sys, os, vim, re
 python from zipfile import ZipFile, ZIP_STORED, ZIP_DEFLATED
 python from StringIO import StringIO
 
